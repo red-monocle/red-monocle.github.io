@@ -9,29 +9,29 @@
 
 		
 			<!-- Begin Jekyll SEO tag v2.1.0 -->
-<meta property="og:title" content="Description of an Alembic">
-<meta name="description" content="The complete distilling apparatus consists of three parts: the “cucurbit” (Arabic ḳarʿa, Greek βίκος), the still pot containing the liquid to be distilled, which is heated by a flame; the “head” or “cap” (Arabic anbiḳ, Greek ἄμβιξ) which fits over the mouth of the cucurbit to receive the vapors, with an attached downward-sloping “tube” (Greek σωλήν), leading to the “receiver” (Arabic ḳābila, Greek ἄγγος or φιάλη) container.">
-<meta property="og:description" content="The complete distilling apparatus consists of three parts: the “cucurbit” (Arabic ḳarʿa, Greek βίκος), the still pot containing the liquid to be distilled, which is heated by a flame; the “head” or “cap” (Arabic anbiḳ, Greek ἄμβιξ) which fits over the mouth of the cucurbit to receive the vapors, with an attached downward-sloping “tube” (Greek σωλήν), leading to the “receiver” (Arabic ḳābila, Greek ἄγγος or φιάλη) container.">
-<link rel="canonical" href="red-monocle.github.io/blog//general/2016/08/27/example-post-one/">
-<meta property="og:url" content="red-monocle.github.io/blog//general/2016/08/27/example-post-one/">
+<meta property="og:title" content="Create SVG donut charts with Javascript">
+<meta name="description" content="Last week I had to create both backend and frontend (a Vue.js component) for a piece of software that, amongst other things, monitors file uploads and processing. The eye candy was already in place and it mainly revolved around donuts created with Chart.js.">
+<meta property="og:description" content="Last week I had to create both backend and frontend (a Vue.js component) for a piece of software that, amongst other things, monitors file uploads and processing. The eye candy was already in place and it mainly revolved around donuts created with Chart.js.">
+<link rel="canonical" href="https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/">
+<meta property="og:url" content="https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/">
 <meta property="og:site_name" content="The Red Monocle">
-<meta property="og:image" content="red-monocle.github.io/blog//blog/assets/placeholder-social.png">
+<meta property="og:image" content="https://red-monocle.github.io/assets/placeholder-social.png">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2016-08-27T00:00:00+01:00">
+<meta property="article:published_time" content="2016-12-04T00:00:00+00:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@The Red Monocle">
 <meta name="twitter:creator" content="@The Red Monocle">
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "BlogPosting",
-"headline": "Description of an Alembic",
-"image": "red-monocle.github.io/blog//blog/assets/placeholder-social.png",
-"datePublished": "2016-08-27T00:00:00+01:00",
-"description": "The complete distilling apparatus consists of three parts: the “cucurbit” (Arabic ḳarʿa, Greek βίκος), the still pot containing the liquid to be distilled, which is heated by a flame; the “head” or “cap” (Arabic anbiḳ, Greek ἄμβιξ) which fits over the mouth of the cucurbit to receive the vapors, with an attached downward-sloping “tube” (Greek σωλήν), leading to the “receiver” (Arabic ḳābila, Greek ἄγγος or φιάλη) container.",
+"headline": "Create SVG donut charts with Javascript",
+"image": "https://red-monocle.github.io/assets/placeholder-social.png",
+"datePublished": "2016-12-04T00:00:00+00:00",
+"description": "Last week I had to create both backend and frontend (a Vue.js component) for a piece of software that, amongst other things, monitors file uploads and processing. The eye candy was already in place and it mainly revolved around donuts created with Chart.js.",
 "publisher": {"@type": "Organization",
 "logo": {"@type": "ImageObject",
-"url": "red-monocle.github.io/blog//blog/assets/the-red-monocle-logo.svg"}},
-"url": "red-monocle.github.io/blog//general/2016/08/27/example-post-one/"}</script>
+"url": "https://red-monocle.github.io/assets/the-red-monocle-logo.svg"}},
+"url": "https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -39,7 +39,7 @@
 			<title>Posts - The Red Monocle</title>
 		
 
-    <link rel="stylesheet" href="/blog/assets/styles.css">
+    <link rel="stylesheet" href="/assets/styles.css">
 
 		<link rel="icon" type="image/png" href="https://www.gravatar.com/avatar/920c4a943f194c4879086b78c161295d?s=16" sizes="16x16">
 <link rel="icon" type="image/png" href="https://www.gravatar.com/avatar/920c4a943f194c4879086b78c161295d?s=32" sizes="32x32">
@@ -73,8 +73,11 @@
 
 		<header class="header">
   <div class="container">
-    <a class="logo" href="red-monocle.github.io/blog/" title="The Red Monocle">
-  <img src="/blog/assets/the-red-monocle-logo.svg" alt="The Red Monocle logo">
+    
+
+
+<a class="logo" href="https://red-monocle.github.io" title="The Red Monocle">
+  <img src="/assets/the-red-monocle-logo.svg" alt="The Red Monocle logo">
 </a>
 
 
@@ -83,7 +86,7 @@
   <ul class="list list--nav">
     
       <li class="item  item--nav">
-        <a href="/blog/">Home</a>
+        <a href="about">About</a>
       </li>
     
   </ul>
@@ -97,7 +100,9 @@
 
 
 
-  <div class="feature" style="background-image: url(https://unsplash.it/1200/400?image=200)">
+
+
+  <div class="feature" style="background-image: url(/assets/rtxwyy3ctxe-dennis-dieta-klein.jpg)">
       <div class="container  typeset">
         
 
@@ -113,18 +118,25 @@
 
 	<article class="article article--post content typeset">
 
-    <h1>Description of an Alembic</h1>
+    <h1>Create SVG donut charts with Javascript</h1>
 		<small class="small  post-meta">
-  <span class="label  label--category">General</span>  ·  <time datetime="2016-08-27T00:00:00+01:00" class="time">27 Aug 2016</time>
+  <span class="label  label--category">Programming</span>  ·  <time datetime="2016-12-04T00:00:00+00:00" class="time">04 Dec 2016</time>
 </small>
 
-    <p>The complete distilling apparatus consists of three parts: the “cucurbit” (Arabic ḳarʿa, Greek βίκος), the still pot containing the liquid to be distilled, which is heated by a flame; the “head” or “cap” (Arabic anbiḳ, Greek ἄμβιξ) which fits over the mouth of the cucurbit to receive the vapors, with an attached downward-sloping “tube” (Greek σωλήν), leading to the “receiver” (Arabic ḳābila, Greek ἄγγος or φιάλη) container.</p>
+    <p>Last week I had to create both backend and frontend (a <a href="https://vuejs.org/">Vue.js</a> component) for a piece of software that, amongst other things, monitors file uploads and processing. The eye candy was already in place and it mainly revolved around donuts created with Chart.js.</p>
 
 <!-- more -->
 
-<p>Retorts have the “cap” and the “cucurbit” made into one. The anbik is also called the raʾs (head) of the cucurbit. The liquid in the cucurbit is heated or boiled; the vapour rises into the anbik, where it cools by contact with the walls and condenses, running down the spout into the receiver. A modern descendant of the alembic is the pot still, used to produce distilled beverages.</p>
+<p>The problem, as I later found out, was that <strong>Vue</strong> doesn’t cope well with Chart.js, or at least not in the way I was supposed to use it. Eventually, after a fair amount of <code class="highlighter-rouge">.nextTick()</code>s and cursing, everything kinda fell into place.</p>
 
-<p><em>Originally from <a href="https://en.wikipedia.org/wiki/Alembic">Alembic - Wikipedia</a></em></p>
+<p>While I was struggling to make it work, I couldn’t stop thinking that there must be a better way to draw a reactive donut chart without some bulky library that forces Vue to behave as it shouldn’t.</p>
+
+<h3 id="enter-the-svg-arc">Enter the SVG arc</h3>
+
+<figure class="figure">
+  <img class="image" src="/assets/donuts-for-all.png">
+  <figcaption class="caption">This is what we will be drawing</figcaption>
+</figure>
 
 
 		
@@ -132,13 +144,13 @@
 
 
 <div class="share">
-  <a class="button" href="https://twitter.com/intent/tweet/?text=Description%20of%20an%20Alembic&amp;url=red-monocle.github.io/blog//general/2016/08/27/example-post-one/" title="Tweet" style="background: #1DA1F2">Tweet  <svg class="icon  icon--twitter" role="img"><use xlink:href="#twitter"></use></svg>
+  <a class="button" href="https://twitter.com/intent/tweet/?text=Create%20SVG%20donut%20charts%20with%20Javascript&amp;url=https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/" title="Tweet" style="background: #1DA1F2">Tweet  <svg class="icon  icon--twitter" role="img"><use xlink:href="#twitter"></use></svg>
 </a>
 
-  <a class="button" href="https://facebook.com/sharer/sharer.php?u=red-monocle.github.io/blog//general/2016/08/27/example-post-one/" title="Share on Facebook" style="background: #3B5998">Share on Facebook  <svg class="icon  icon--facebook" role="img"><use xlink:href="#facebook"></use></svg>
+  <a class="button" href="https://facebook.com/sharer/sharer.php?u=https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/" title="Share on Facebook" style="background: #3B5998">Share on Facebook  <svg class="icon  icon--facebook" role="img"><use xlink:href="#facebook"></use></svg>
 </a>
 
-  <a class="button" href="https://plus.google.com/share?url=red-monocle.github.io/blog//general/2016/08/27/example-post-one/" title="Share on Google+" style="background: #DC4E41">Share on Google+  <svg class="icon  icon--googleplus" role="img"><use xlink:href="#googleplus"></use></svg>
+  <a class="button" href="https://plus.google.com/share?url=https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/" title="Share on Google+" style="background: #DC4E41">Share on Google+  <svg class="icon  icon--googleplus" role="img"><use xlink:href="#googleplus"></use></svg>
 </a>
 
 </div>
@@ -148,13 +160,13 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-        this.page.url = "red-monocle.github.io/blog//general/2016/08/27/example-post-one/";
-        this.page.identifier = "/general/2016/08/27/example-post-one/";
+        this.page.url = "https://red-monocle.github.io/programming/2016/12/04/create-svg-donut-charts-with-javascript/";
+        this.page.identifier = "/programming/2016/12/04/create-svg-donut-charts-with-javascript/";
     };
 
     (function() {
         var d = document, s = d.createElement('script');
-        s.src = '//redmonocle.disqus.com/embed.js';
+        s.src = '//red-monocle.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
@@ -175,32 +187,6 @@
       <h2>Related posts</h2>
 <ul class="list  list--posts">
   
-    <li class="item  item--post">
-      <article class="article  article--post  typeset">
-
-        <h5><a href="/general/2016/08/29/example-post-three/" title="Description of a Pot Still">Description of a Pot Still</a></h5>
-        <small class="small  post-meta">
-  <span class="label  label--category">General</span>  ·  <time datetime="2016-08-29T00:00:00+01:00" class="time">29 Aug 2016</time>
-</small>
-
-        <p>A pot still is a type of still used in distilling spirits such as whisky or brandy. Heat is applied...
-
-      </p></article>
-    </li>
-  
-    <li class="item  item--post">
-      <article class="article  article--post  typeset">
-
-        <h5><a href="/general/2016/08/28/example-post-two/" title="History of the Alembic">History of the Alembic</a></h5>
-        <small class="small  post-meta">
-  <span class="label  label--category">General</span>  ·  <time datetime="2016-08-28T00:00:00+01:00" class="time">28 Aug 2016</time>
-</small>
-
-        <p>Dioscorides’ ambix (described in his De materia medica) is a helmet-shaped lid for gathering condensed mercury. For Athenaeus (~ 225...
-
-      </p></article>
-    </li>
-  
 </ul>
 
     
@@ -215,31 +201,13 @@
   <nav class="nav  nav--social">
   
     
-    <a class="link" href="https://twitter.com/red-monocle" title="Twitter">
-      <svg class="icon  icon--twitter" role="img"><use xlink:href="#twitter"></use></svg>
-
-    </a>
-  
-    
-    <a class="link" href="https://www.linkedin.com/in/red-monocle" title="LinkedIn">
-      <svg class="icon  icon--linkedin" role="img"><use xlink:href="#linkedin"></use></svg>
-
-    </a>
-  
-    
-    <a class="link" href="https://plus.google.com/+red-monocle" title="GooglePlus">
-      <svg class="icon  icon--googleplus" role="img"><use xlink:href="#googleplus"></use></svg>
-
-    </a>
-  
-    
     <a class="link" href="https://github.com/red-monocle" title="GitHub">
       <svg class="icon  icon--github" role="img"><use xlink:href="#github"></use></svg>
 
     </a>
   
     
-    <a class="link" href="https://red-monocle.github.io/blog/" title="link">
+    <a class="link" href="https://red-monocle.github.io" title="link">
       <svg class="icon  icon--link" role="img"><use xlink:href="#link"></use></svg>
 
     </a>
@@ -259,7 +227,7 @@
   <ul class="list list--nav">
     
       <li class="item  item--nav">
-        <a href="https://red-monocle.github.io">Created by The Red M0nocle</a>
+        <a href="https://red-monocle.github.io">Created by The Red Monocle</a>
       </li>
     
   </ul>
